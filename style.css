@@ -18,8 +18,8 @@
 }
 
 .container{
-    max-width: 1200px;
     margin: 0 auto;
+    max-width: 1200px;
 }
 
 .dashed-border{
@@ -30,9 +30,6 @@
     border: 2px dashed white;
 }
 
-.background-gold{
-    background-color: #d9a420;
-}
 
 .background-gray{
     background-color: #d2d2d2;
@@ -96,36 +93,64 @@ header section.jumbotron{
 }
 
 section.jumbotron .hero{
-    background-color: #ed81ed;
-    height: 400px;
+    background-color: transparent;
     width: 75%;
+    height: 500px;
+    text-align: center;
 }
-
+h1{
+    align-items: center;
+}
+p{
+    margin-top: 2%;
+}
+.bottonebianco{
+    border-radius: 15px;
+    background-color: white;
+    margin-top: 5%;
+    padding: 1%;
+}
+.bottonenero{
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+    padding: 1%;
+}
 main>section{
     padding: 4rem 0;
 }
+h2{
+    margin: 3% 0 8% 0;
+}
+.text-column{
+    width: 40%;
+    text-align: left;
+    font-size: xx-large;
+}
 
-/* TODO Rimuovere dopo i contenuti*/
-main section div.blue-column,
-main section div.pink-column,
-main section div.big-column{
+.img1-column{
+    background-image: url(img/item1.svg);
+    width: 60%;
+    background-size: cover;
     height: 500px;
 }
-
-main section div.blue-column{
-    background-color: #1c87f0;
+.img2-column{
+    background-image: url(img/item2.svg);
     width: 60%;
+    background-size: cover;
+    height: 500px;
 }
-
-main section div.pink-column{
-    background-color: #f1b5c0;
-    width: 40%;
+.img3-column{
+    background-image: url(img/item3.svg);
+    width: 60%;
+    background-size: cover;
+    height: 500px;
 }
-
 main section div.big-column{
-    background-color: #1e7b1e;
     width: 100%;
     height: 800px;
+    text-align: center;
+    font-size: xx-large;
 }
 
 footer{
