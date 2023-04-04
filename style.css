@@ -35,9 +35,7 @@
     background-color: #d2d2d2;
 }
 
-.background-pastel-pink{
-    background-color: #feb5c0;
-}
+
 
 body{
     font-family: sans-serif;
@@ -150,9 +148,15 @@ main section div.big-column{
     width: 100%;
     height: 800px;
     text-align: center;
-    font-size: xx-large;
+    font-size: large;
 }
-
+.bottoneblu{
+    border-radius: 20px;
+    margin-top: 2%;
+    padding: 1%;
+    color: white;
+    background-color: #6e30f5;
+}
 footer{
     background-color: #23272a;
     padding-top: 1rem;
@@ -177,7 +181,6 @@ footer div.secondary-column{
 }
 
 footer section.footer-bottom{
-    background-color: #7ffed3;
     align-items: center;
     justify-content: space-between;
     padding: 1rem 0;
@@ -191,4 +194,9 @@ hr{
 footer section .logo-wrapper,
 footer section .button-wrapper{
     padding: .5rem;
+    border-radius: 20px;
+}
+.button-wrapper{
+    background-color: #6e30f5;
+    color: white;
 }
