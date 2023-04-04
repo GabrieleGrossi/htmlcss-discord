@@ -22,14 +22,6 @@
     max-width: 1200px;
 }
 
-.dashed-border{
-    border: 2px dashed black;
-}
-
-.dashed-border-white{
-    border: 2px dashed white;
-}
-
 
 .background-gray{
     background-color: #d2d2d2;
@@ -81,6 +73,7 @@ section.upper div.login{
     border-radius: 15px;
     background-color: white;
     color: black;
+    margin-left: 20%;
 }
 
 header section.jumbotron{
@@ -163,20 +156,20 @@ footer{
 }
 
 footer section.footer-top{
-    height: 700px;
+    height: 500px;
 }
 
-footer div.main-column{
-    background-color: #ef7f7f;
+.main-column{
     width: 30%;
+    color: white;
 }
 
 footer div.footer-columns{
     width: 70%;
+    color: white;
 }
 
 footer div.secondary-column{
-    background-color: #20b1a9;
     width: calc(100% / 4);
 }
 
@@ -199,4 +192,10 @@ footer section .button-wrapper{
 .button-wrapper{
     background-color: #6e30f5;
     color: white;
+}
+.ul-notype{
+    list-style-type: none;
+}
+h4{
+    color: purple;
 }
